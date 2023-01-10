@@ -1,0 +1,147 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header,
+footer{
+    background-color: #1F2937;
+}
+
+a,
+.secondary,
+footer{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header{
+    margin: 0px;
+    border: 0px;
+    padding: 4px 200px 30px 200px;
+}
+
+.opening{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.line-two > img{
+    width: 500px;
+}
+
+.line-two{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card > img{
+    max-width: 30vh;
+}
+
+.top-bar{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.logo{
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.links{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    flex: 1;
+}
+
+.line-two{
+    display:flex;
+}
+
+button,
+.join{
+    background-color: #3882f6;
+}
+
+.info{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    display: flex;
+    gap: 40px;
+}
+
+text{
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+}
+
+.quotation{
+    background-color: #e5e7eb;
+    padding: 40px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cite{
+    text-align: right;
+    font-weight: bold;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    font: #1f2937
+}
+
+.join{
+    color:#e5e7eb;
+    padding:20px 40px;
+    margin: 40px 240px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.call{
+    font-size: larger;
+    font-weight:bold;
+}
+
+button{
+    padding: 5px 16px;
+    color: #e5e7eb;
+}
+
+footer{
+    text-align: center;
+}
+
+.join,
+button,
+.cards > img{
+    border-radius: 25px;
+}
