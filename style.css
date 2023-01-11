@@ -25,8 +25,6 @@ footer{
 }
 
 .header{
-    margin: 0px;
-    border: 0px;
     padding: 4px 200px 30px 200px;
 }
 
@@ -43,6 +41,11 @@ footer{
 .line-two{
     display: flex;
     justify-content: space-evenly;
+    gap: 34px;
+}
+
+.line-two > img{
+    height: 200px;
 }
 
 .card > img{
@@ -51,10 +54,12 @@ footer{
 
 .top-bar{
     display: flex;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .logo{
+    display: flex;
     justify-content: flex-start;
     flex: 1;
 }
@@ -101,9 +106,10 @@ text{
 
 .quotation{
     background-color: #e5e7eb;
-    padding: 40px 300px;
+    padding: 40px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .cite{
@@ -142,6 +148,6 @@ footer{
 
 .join,
 button,
-.cards > img{
-    border-radius: 25px;
+img{
+    border-radius: 15px;
 }
